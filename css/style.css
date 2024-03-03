@@ -24,7 +24,7 @@
   bottom: 45px;
   z-index: 99;
 }
-.custom-card{
+.custom-card {
   height: 720px;
   max-height: 100%;
   overflow-y: auto;
@@ -42,7 +42,7 @@ a {
 }
 
 p {
-    font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 blockquote.blockquote {
@@ -51,14 +51,13 @@ blockquote.blockquote {
   font-family: "Poppins", sans-serif !important;
   font-size: 0.9em;
   background-color: #fafafa;
-  margin-left:8px;
+  margin-left: 8px;
   padding: 8px;
 }
 blockquote .blockquote p {
   text-align: justify !important;
   color: #333;
 }
-
 
 /*** Spinner ***/
 #spinner {
@@ -139,7 +138,7 @@ blockquote .blockquote p {
 .navbar .dropdown-toggle::after {
   border: none;
   content: "\f107";
-  font-family: 'Font Awesome 5 Free';;
+  font-family: "Font Awesome 5 Free";
   font-weight: 800;
   vertical-align: middle;
   margin-left: 8px;
@@ -596,7 +595,7 @@ blockquote .blockquote p {
 .footer .btn.btn-link::before {
   position: relative;
   content: "\f105";
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
 }
@@ -644,11 +643,16 @@ blockquote .blockquote p {
 
 .welcome-banner {
   background-attachment: fixed;
-  background: linear-gradient(45deg, #cbf1e59f, #05f364a7),url('/img/wlcom-gif.gif');
+  background: linear-gradient(45deg, #cbf1e59f, #05f364a7),
+    url("/img/wlcom-gif.gif");
   object-fit: cover;
   width: 100%;
   max-width: 100%;
 }
 .welcome-text > h1 {
   color: #091b00 !important;
+}
+
+.logo {
+  background-color: #32c36c;
 }
