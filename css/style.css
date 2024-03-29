@@ -653,6 +653,7 @@ blockquote .blockquote p {
   color: #091b00 !important;
 }
 
-.logo {
-  background-color: #32c36c;
+.ev-border {
+  border: 2px solid #016529a6;
+  box-shadow: 4px 8px 8px #ccc;
 }
