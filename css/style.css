@@ -651,9 +651,13 @@ blockquote .blockquote p {
 }
 .welcome-text > h1 {
   color: #091b00 !important;
+<<<<<<< HEAD
+}
+=======
 }
 
 .ev-border {
   border: 2px solid #016529a6;
   box-shadow: 4px 8px 8px #ccc;
 }
+>>>>>>> 954148a (update prodocuts)
