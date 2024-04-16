@@ -24,12 +24,14 @@
   bottom: 45px;
   z-index: 99;
 }
+
 .custom-card {
   height: 720px;
   max-height: 100%;
   overflow-y: auto;
   z-index: 2;
 }
+
 h1,
 h2,
 h3,
@@ -46,14 +48,17 @@ p {
 }
 
 blockquote.blockquote {
-  border-left: 4px solid green; /* Adjust the width and color as needed */
-  padding-left: 10px; /* Add some padding for spacing */
+  border-left: 4px solid green;
+  /* Adjust the width and color as needed */
+  padding-left: 10px;
+  /* Add some padding for spacing */
   font-family: "Poppins", sans-serif !important;
   font-size: 0.9em;
   background-color: #fafafa;
   margin-left: 8px;
   padding: 8px;
 }
+
 blockquote .blockquote p {
   text-align: justify !important;
   color: #333;
@@ -248,7 +253,7 @@ blockquote .blockquote p {
   background-size: cover;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
   color: var(--light);
 }
 
@@ -294,6 +299,7 @@ blockquote .blockquote p {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
   transition: 0.5s;
 }
+
 .product-badge {
   position: relative;
   margin: -50px 0 -20px 0;
@@ -453,11 +459,9 @@ blockquote .blockquote p {
   left: 0;
   height: 100%;
   width: 0;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%);
   z-index: 1;
 }
 
@@ -468,15 +472,14 @@ blockquote .blockquote p {
   right: 0;
   height: 100%;
   width: 0;
-  background: linear-gradient(
-    to left,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(to left,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%);
   z-index: 1;
 }
 
 @media (min-width: 768px) {
+
   .testimonial-carousel::before,
   .testimonial-carousel::after {
     width: 200px;
@@ -484,6 +487,7 @@ blockquote .blockquote p {
 }
 
 @media (min-width: 992px) {
+
   .testimonial-carousel::before,
   .testimonial-carousel::after {
     width: 300px;
@@ -620,7 +624,8 @@ blockquote .blockquote p {
 }
 
 .accordion-toggle.collapsed::before {
-  display: none; /* Hide the arrow when collapsed */
+  display: none;
+  /* Hide the arrow when collapsed */
 }
 
 .mapouter {
@@ -649,7 +654,8 @@ blockquote .blockquote p {
   width: 100%;
   max-width: 100%;
 }
-.welcome-text > h1 {
+
+.welcome-text>h1 {
   color: #091b00 !important;
 }
 
