@@ -94,5 +94,26 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
     
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get all dropdown toggles
+        var dropdownToggleList = [].slice.call(document.querySelectorAll('.dropdown-toggle'));
+
+        // Iterate over dropdown toggles
+        dropdownToggleList.forEach(function (dropdownToggleEl) {
+            dropdownToggleEl.addEventListener('click', function (e) {
+                // Get the parent dropdown menu
+                var parentDropdown = e.target.closest('.dropdown');
+
+                // Toggle the 'show' class on the parent dropdown menu
+                if (parentDropdown) {
+                    var dropdownMenu = parentDropdown.querySelector('.dropdown-menu');
+                    if (dropdownMenu) {
+                        dropdownMenu.classList.toggle('show');
+                    }
+                }
+            });
+        });
+    });
+    
 })(jQuery);
 
